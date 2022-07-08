@@ -9,7 +9,7 @@ public class EvenOrOddChallenge {
 		
 		Scanner Scan = new Scanner(System.in);
 		
-		//Scanner close;
+		Scan.close();
 		
 		System.out.print("What is your Number: ");
 		Long num = Scan.nextLong();
