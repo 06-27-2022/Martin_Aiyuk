@@ -35,12 +35,13 @@ public class EmployeeLogIn {
 		String Role = scanner.nextLine();
 		
 		
-		//scanner.close();
+		scanner.close();
 		
-		System.in.println("Enter Username: " + this.Username , "Enter Password: " 
-				+ this.Password , "Enter Role " + this.Role);
+		System.out.println("Username: " + Username);
+		System.out.println("Password: " + Password);
+		System.out.println("Role: " + Role);
 		
-		return;
+		
 	}
 	
 	public static void main(String[] args) {
