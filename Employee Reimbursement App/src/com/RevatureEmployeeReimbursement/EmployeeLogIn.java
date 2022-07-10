@@ -1,7 +1,6 @@
 package com.RevatureEmployeeReimbursement;
 
 import java.util.Scanner;
-import java.util.*;
 
 public class EmployeeLogIn {
 	
@@ -25,8 +24,9 @@ public class EmployeeLogIn {
 		Scanner scanner = new Scanner(System.in);
 		
 		System.out.print("Enter Username: ");
-        String Username = scanner.nextLine();
-        scanner.nextLine();
+                String Username = scanner.nextLine();
+
+                //scanner.nextLine();
         
 		System.out.print("Enter Password: ");
 		String Password = scanner.nextLine();
@@ -34,17 +34,19 @@ public class EmployeeLogIn {
 		System.out.print("Enter Role: ");
 		String Role = scanner.nextLine();
 		
+		scanner.nextLine();
 		
-		scanner.close();
+		
 		
 		System.out.println("Username: " + Username);
 		System.out.println("Password: " + Password);
 		System.out.println("Role: " + Role);
 		
-		
+	        scanner.close();
+	    
 	}
 	
-	public static void main(String[] args) {
+	        public static void main(String[] args) {
 		
 		EmployeeLogIn Employee1 = new EmployeeLogIn();
 		EmployeeLogIn Employee2 = new EmployeeLogIn();
